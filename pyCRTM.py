@@ -6,8 +6,8 @@ from matplotlib import pyplot as plt
 thisDir = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0,thisDir)
 #get around extra wrapper layer thanks to scikit-build
-from pycrtm import pycrtm as p
-pycrtm = p.pycrtm
+# from pycrtm import pycrtm as p
+# pycrtm = p.pycrtm
 from crtm_io import readSpcCoeff
 from collections import namedtuple
 # Absorber IDs taken from CRTM.
